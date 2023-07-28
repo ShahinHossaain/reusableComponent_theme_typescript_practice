@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .light {
+    --color-primary-400: 152 73 73;
+    --color-primary-500: 255 0 0;
+    --color-white: 255 255 255;
+  }
+  .dark {
+    --color-primary-400: 102 102 218;
+    --color-primary-500: 0 0 255;
+    --color-white: 255 255 255;
+  }
+}
