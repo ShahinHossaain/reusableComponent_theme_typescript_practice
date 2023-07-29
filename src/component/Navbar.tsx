@@ -30,6 +30,7 @@ const Navbar = () => {
               </ul>
             </div>
             <ActiveLInk to="/theme">Theme</ActiveLInk>
+            <ActiveLInk to="/button">Button</ActiveLInk>
           </div>
           <div className="md:hidden flex items-center">
             <button

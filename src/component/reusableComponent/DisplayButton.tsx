@@ -2,8 +2,8 @@ import Button from "./child/Button";
 
 const DisplayButton = () => {
   return (
-    <div>
-      <Button>Click Me</Button>
+    <div className="dark">
+      {/* <Button>Click Me</Button> */}
       <Button size="large" variant="primary">
         Submit
       </Button>
@@ -13,6 +13,9 @@ const DisplayButton = () => {
         onClick={() => alert("Button clicked!")}
       >
         Alert
+      </Button>
+      <Button size="medium" variant="secondary">
+        Shahin
       </Button>
     </div>
   );
