@@ -20,7 +20,7 @@ const Navbar = () => {
               <button className="text-white focus:outline-none">
                 Dropdown
               </button>
-              <ul className="absolute z-10 hidden group-hover:block bg-primary-400 text-white p-3 mx-auto py-2 space-y-2">
+              <ul className="absolute z-10 hidden group-hover:block bg-primary-400 text-white p-3  py-2 space-y-2">
                 <li>
                   <ActiveLInk to="/hoc">HOC</ActiveLInk>
                 </li>

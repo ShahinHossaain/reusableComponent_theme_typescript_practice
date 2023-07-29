@@ -12,7 +12,7 @@ const RenderProps = () => {
         যে ফাংশন argument হিসাবে count, increaseCount নিচ্ছে যা সেট হচ্ছে
         Increase component এর ভিতরে এবং Increase component ভিতর থেকেই render
         ফাংশনটিকে return করা হচ্ছে যা RenderClickCounter এবং RenderHoverCounter
-        props হিসাবে পাঠানো হচ্ছে ।
+        props হিসাবে পাঠানো হচ্ছে । okey
       </p>
 
       <Increase
