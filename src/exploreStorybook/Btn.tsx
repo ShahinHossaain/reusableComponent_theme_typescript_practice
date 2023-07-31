@@ -1,6 +1,6 @@
 import "tailwindcss/tailwind.css";
 type Props = {
-  variant: "green" | "yellow" | "red";
+  variant: "green" | "yellow" | "red" | "pink";
 };
 const Btn = ({ variant = "green" }: Props) => {
   return (

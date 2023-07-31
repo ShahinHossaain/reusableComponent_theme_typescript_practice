@@ -4,13 +4,13 @@ import Btn from "./Btn";
 
 const meta: Meta<typeof Btn> = {
   component: Btn,
-  title: "Example/Btn",
-  tags: ["autodocs"],
+  title: "arafath/Btn", //title দিয়ে কোন folder এর ভিতর component থাকবে সেটা বলে দেয়া হয়।
+  tags: ["autodocs"], //এই command দিয়ে Btn এর ভিতরে একটা docs file তৈরি করা যার ভিতর সকল story গুলো থাকে।
   argTypes: {
     variant: {
       control: { type: "radio" },
-      //   control: { type: "select" },
-      options: ["green", "yellow", "red"],
+      // control: { type: "select" },
+      options: ["green", "yellow", "red", "blue", "purple"], //variant এর value এইসব value দ্বারা চেক করা যাবে।
     },
   },
   parameters: {
@@ -37,8 +37,14 @@ export const Red: Story = {
     variant: "red",
   },
 };
+
+export const Pink: Story = {
+  args: {
+    variant: "pink",
+  },
+};
 export const Another: Story = {
-  render: (args) => (
+  render: () => (
     <div
       style={{
         display: "flex",
@@ -52,6 +58,7 @@ export const Another: Story = {
       <Btn variant="green" />
       <Btn variant="yellow" />
       <Btn variant="red" />
+      <Btn variant="pink" />
     </div>
   ),
 };

@@ -7,6 +7,7 @@
     --color-primary-400: 152 73 73;
     --color-primary-500: 255 0 0;
     --color-white: 255 255 255;
+    --color-secondary: 3 3 121;
   }
   .dark {
     --color-primary-400: 102 102 218;
@@ -14,3 +15,4 @@
     --color-white: 255 255 255;
   }
 }
+/* Optionally, you can set the dark theme as the default by uncommenting this */

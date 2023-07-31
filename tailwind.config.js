@@ -20,7 +20,9 @@ export default {
         500: 'rgb(var(--color-primary-500) / <alpha-value>)',
         DEFAULT: 'rgb(var(--color-primary-400) / <alpha-value>)'
       },
-      white: 'rgb(var(--color-white) / <alpha-value>)'
+      white: 'rgb(var(--color-white) / <alpha-value>)',
+      secondary: 'rgb(var(--color-secondary-) / <alpha-value>)'
+
 
     },
 

@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="light bg-primary-400 text-white p-4">
+    <nav className="light bg-primary-500 shahin:bg-primary-400 text-white p-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
