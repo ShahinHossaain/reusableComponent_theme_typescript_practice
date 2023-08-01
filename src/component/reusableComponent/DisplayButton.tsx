@@ -1,4 +1,4 @@
-import { Form } from "@radix-ui/react-form";
+import FormDemo from "../../exploreStorybook/form/Form";
 import Button from "./child/Button";
 
 const DisplayButton = () => {
@@ -18,6 +18,7 @@ const DisplayButton = () => {
       <Button size="medium" variant="secondary">
         Shahin
       </Button>
+      <FormDemo />
     </div>
   );
 };
